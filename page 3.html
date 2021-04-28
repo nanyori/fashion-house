@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+   <title>fashion </title>
+<style>
+  /*Header Styles Start Here*/
+a{text-decoration:none; color:purple; padding:2vw;}
+
+a:hover{color:blue;} 
+
+.row{
+width:100%;
+display:flex;
+}
+.img-responsive{
+flex:1;
+width:5px;
+height:1px;
+}
+.nav{
+flex:3;
+text-align:center;
+background-color:black;
+padding:2px;
+}
+.nav a{
+padding:14px;
+text-align:center;
+color:purple;
+font-size:30px;
+text-decoration:none;
+} 
+
+.nav a:hover{
+color:white;
+}
+
+img{height:60px; width:90px;}
+
+nav{padding:10px;}
+
+.header{
+text-align:center;
+background-color:pink;
+padding:12px;
+}
+
+/*Header Styles Ends Here*/
+
+.contact{display:flex;
+               padding:20px 20px;}
+.column{flex:1;}
+h1{color:purple;
+      margin:20px;}
+h5{margin:20px;
+      padding-left:20px;}
+h4{padding-left:20px;}
+.form{padding-top:20px;
+          padding-left:50px;}
+.input[type=text],select,textarea{width:100%;
+                                                     padding:12px;
+                                                  border:1px solid#ccc;
+                                                   border-radius:4px;
+                                                 box-sizing:border-box;
+                                                 margin-top:6px;
+                                                 margin-bottom:16px;
+                                                 resize:vertical;}
+input[type=submit]{background-color:purple;
+                                color:white;
+                                padding:12px 20px; 
+                                 border:none;
+                                border-radius:4px;
+                                cursor:pointer;margin:20px;}
+input[type=submit]:hover{background-color:pink;}
+.container{border-radius:5px;
+                 background-color:#f2f2f2;
+                 padding:20px;}
+.footer{background-color:pink;
+            float:left;
+            padding:30px 35px;
+           width:100%;}
+
+.footer h2{color:purple;
+                  float:left;
+                 margin:0 0 20px 0;
+                 padding:9px 0 0 19px;
+                  height:33px;
+                 width:291px;}
+
+.footer ul{margin:0;
+                padding:0;}
+
+.footer li{border-bottom:1px dotted;
+                border-top:1px dotted;
+                 float:left;
+                 height:35px;
+                 margin:3px 0;
+                 width:310px;}
+
+.footer li a{color:purple;
+                  display:block;
+                    float:left;
+                   padding:10px 0 0 19px;
+                   text-decoration:none;
+                  font-size:12px; }
+
+.footer li hover{background:blue;}
+
+.footer p{font-size:13px;
+                color:purple;
+                 display:block;}
+</style>
+</head>
+<body>
+  
+<!-- Header by Jemima -->
+ <div class="header">
+  <h1> FASHION HOUSE </h1>
+  </div>
+  
+  
+  <div class="row">
+      <div class="img">
+          <img src="images.png" alt="logo">
+      </div>
+      <div class="nav">
+          <nav>
+              <a href= "fashion.html"> home </a>
+              <a href= "page 2.html"> about </a>
+              <a href= "page 3.html"> contact us </a>
+          </nav>
+      </div>
+  </div>
+  <!-- Header Ends Here-->
+
+<div class="contact">
+  <div class="column">
+     <h1>CONTACT US </h1>
+     <h4>you can contact us using the form to your
+       right,altenatively you can use the following
+       links</h4>
+     <h5>📞07623828828</h5>
+     <h5><i><b>www.fashionhouse.com</b></i></h5>
+    </div>
+  <div class="form">  
+      <form action="writing">
+         <label for="fname">first name </label>
+           <input type="text" id="fname" name="firstname"placeholder="yourname..">
+         <lable for="lname">last name </lable>
+           <input type="text" id="lname" name="lastname" placeholder="your last name..">
+       <select id="country" name="country">
+          <option value="dar-es salaam">dar-es-salaam </option>
+          <option value="mbeya">mbeya</option>
+          <option value="morogoro">morogoro </option> 
+           <option value="tanga">Tanga </option>
+         <option value="arusha">Arusha </arusha>
+      </select>
+<lable for="subject">subject </lable>
+     <textarea id="subject" name="subject" placeholder="write something..." 
+        style="height:200px"></textarea>
+      <input type="submit" value="submit">
+</form>
+</div>
+</div>
+<div class="footer">
+<h2> reach us at:</h2>
+<ul>
+<li><a href="facebook.com"> facebook</a></li>
+<li><a href="instagram.com"> Instagram</a></li>
+<li><a href="twitter.com"> Twitter </a></li>
+</li>
+</ul>
+</div>
+<div class="footer">
+<p> this website is protected by copyright</p>
+</div>
+</body>
+</html>
